@@ -1,7 +1,7 @@
 while True:
 	try:
 		i = int(input("Sayı giriniz: ")) # 2
-	except:
+	except ValueError:
 		print("Hata Kodu: 5786, \nAçıklama: Lütfen bir \"tam sayı\" giriniz.")
 
 	else:
